@@ -1,0 +1,3 @@
+Array.from({ length: 5 }, (_, i) => i + 1).forEach((num) => {
+    console.log(`Executing test case number: ${num}`);
+  });
